@@ -1,3 +1,14 @@
+# FLAMES
+# F = Friends
+# L = Love
+# A = Affection
+# M= Marriage
+# E= Enemy
+# S= Sibling
+# What we do is we write two persons name and cut out the common letter between them , we'll then count the number of letters which are uncommon and then we will start counting from F in Flames up to that number and we'll cut out that letter in FLAMES 
+# we'll continue to do this till a single letter in FLAMES remains and that letter will tell the relationship between both people
+
+
 import string
 
 p1 = input("Enter first person name:")
