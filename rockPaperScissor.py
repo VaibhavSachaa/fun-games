@@ -1,3 +1,8 @@
+#it's a rock paper scissor game , in which both the players have to choose a number   to open all the chances of selecting rock , paper , or scissor and then accordingly they have to select their secret bit position in the number they have previously chosen and  the modulus of the value the that bit position with 3 will one of the choices (rock , paper , or scissor) where 0 is rock, 1 is paper and 2 is scissor that players already know
+#just to avoid any cheating it's made like that :)
+ 
+
+
 def rock_paper_scissor(num1,num2,bit1,bit2):
     p1=int(num1[bit1])%3
     p2=int(num2[bit2])%3
